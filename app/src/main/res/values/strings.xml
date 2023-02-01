@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Call Of Sticky</string>
+    <string name="pageeasy">Call Of Sticky - Easy</string>
+    <string name="pagemedium">Call Of Sticky - Medium</string>
+    <string name="pagehard">Call Of Sticky - Hard</string>
+    <string name="pagemanual">Call Of Sticky - How to play</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+
+
+    <string name="LP1">Life Point :</string>
+    <string name="LP2">Life Point Enemy:</string>
+    <string name="Atk">Attack</string>
+    <string name="Def">Defence</string>
+    <string name="Dice">Dice</string>
+    <string name="Stat">Stat :</string>
+    <string name="Zero">0</string>
+    <string name="WinorLose">"                      "</string>
+    <string name="StatDice">Dice : </string>
+    <string name="Mode">Mode : </string>
+    <string name="ATKMode">Attack Mode</string>
+    <string name="DEFMode">Defence Mode</string>
+
+
+    <string name="title_activity_hard">Hard</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="dice">Dice : เป็นการทอยลูกเต๋าเพื่อที่จะทำการสุ่มค่าพลังระหว่าง 1 – 6
+
+</string>
+    <string name="atk">ATK : หลังจากที่ผู้เล่นคลิกที่ปุ่มรูปภาพ ATK จะทำตรวจสอบค่าพลังสะสมของบอทว่าเกิน 9 แต้มหรือไม่ ถ้ายังไม่เกิน 9 แต้ม บอทจะทำการทอยลูกเต๋าต่อจนได้ค่าพลังสะสมเกิน 9 แต้ม ต่อมาจะใช้ค่าพลังสะสมของผู้เล่น และบอท มาเปรียบเทียบว่าของผู้เล่น หรือบอทมากหรือน้อยกว่ากัน
+ถ้าพลังสะสมของผู้เล่นมากกว่าพลังสะสมของบอท ผู้เล่นจะทำการโจมตีสำเร็จ และขึ้นข้อความ “Attack _ point.”
+ถ้าพลังสะสมของผู้เล่นน้อยกว่าพลังสะสมของบอท ผู้เล่นจะทำการโจมตีล้มเหลว และผู้เล่นจะถูกโจมตีด้วยพลังสะสมของบอทโดยตรง โดยขึ้นข้อความ “receive damage _ point.”
+การป้องกัน</string>
+    <string name="def">DEF :
+หลังจากที่ผู้เล่นคลิกที่ปุ่มรูปภาพ DEF จะทำตรวจสอบค่าพลังสะสมของบอทว่าเกิน 9 แต้มหรือไม่ ถ้ายังไม่เกิน 9 แต้ม บอทจะทำการทอยลูกเต๋าต่อจนได้ค่าพลังสะสมเกิน 9 แต้ม
+ถ้าพลังสะสมของผู้เล่นมากกว่าพลังสะสมของบอท ผู้เล่นจะทำป้องกันสำเร็จ และขึ้นข้อความ “receive damage 0 point.”
+ถ้าพลังสะสมของผู้เล่นน้อยกว่าพลังสะสมของบอท ผู้เล่นจะทำการป้องกันได้ โดยนำค่าส่วนต่างระหว่างพลังสะสมของผู้เล่น และพลังสะสมของบอท มาโจมตีใส่ HP ของผู้เล่น “receive damage _ point.”</string>
+</resources>

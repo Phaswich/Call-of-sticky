@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        app:srcCompat="@drawable/logomain" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <ImageButton
+            android:id="@+id/easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:maxWidth="800dp"
+            android:maxHeight="120dp"
+            android:paddingTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/easy"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:contentDescription="TODO"
+            android:maxWidth="800dp"
+            android:maxHeight="120dp"
+            android:paddingTop="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/medium"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0.5"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:maxWidth="800dp"
+            android:maxHeight="120dp"
+            android:paddingTop="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hard"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/howtoplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@color/white"
+            app:srcCompat="@drawable/howtoplay"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+
+</LinearLayout>
